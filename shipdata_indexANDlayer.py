@@ -2,7 +2,7 @@
 """
 Created on Tue Jan 19 13:47:35 2015
 
-@author: zhaobin
+@author: zhaobin,yifan
 """
 '''
 Extract new data file named "06-08_indexANDlayer.csv "with new column "modNearestIndex" and "modDepthLayer"
