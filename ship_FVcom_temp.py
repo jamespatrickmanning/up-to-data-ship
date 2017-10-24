@@ -2,7 +2,7 @@
 """
 Created on Mon Feb  9 11:23:07 2015
 
-@author: zhaobin
+@author: zhaobin,yifan
 """
 'get temperature from fvcom`s website and create ctd_FVcom_temp.csv or ship_FVcom_temp.csv'
 import numpy as np
