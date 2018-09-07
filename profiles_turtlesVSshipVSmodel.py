@@ -193,7 +193,7 @@ for i in range(len(INDX)):   #
     #plt.text(1,min(shipdepth[INDX[i]])+14.5,'RMS turtle-model(HYCOM):'+str(round(rms_turVSmod_hycom,2)),fontsize=15)  #HYCOM
     '''
     plt.title('Ship vs Turtle vs Model Profiles ('+str(shiptime[INDX[i]].date())+')',fontsize=14)# +str(i)+'~'
-    plt.savefig('/home/zdong/yifan/my program/up-to -date ship/picture/profiles_turtlesVSshipVSmodel'+str(i)+'.png',dpi=200)
+    plt.savefig('picture/profiles_turtlesVSshipVSmodel'+str(i)+'.png',dpi=200)
     plt.show()
 print 'mean(mean ship-turtle)',np.mean(np.array(Mean_turVSship))
 print 'mean(mean ship-model(roms))',np.mean(np.array(Mean_modVSship))
